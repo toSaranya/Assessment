@@ -1,0 +1,162 @@
+body{
+    background-color: linear-gradient(to right, #f13d6c, #7b46cd);
+}
+.grid{
+    border: 10px solid #f13d6c, #7b46cd;
+    height: 700px;
+    width: 1200px;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap:1px;
+}
+    .taco1{
+        background-color: yellow;
+        grid-row: 1;
+        grid-column: 1;
+        font-weight: bold;
+        width: 180px;
+        height: 20px;
+        font-size: 14px;
+        margin: 4px 1px 2px 3px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .beer1{
+        background-color: yellow;
+        grid-row: 1;
+        grid-column: 2;
+        font-weight: bold;
+        font-size: 14px;
+        width: 180px;
+        height: 20px;
+        margin: 4px 1px 2px 3px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .wine1{
+        background-color: yellow;
+        grid-row: 1;
+        grid-column: 3;
+        font-weight: bold;
+        font-size: 14px;
+        width: 180px;
+        height: 20px;
+        margin: 4px 1px 2px 3px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .dessert{
+        background-color: yellow;
+        grid-row: 1;
+        grid-column: 4;
+        font-weight: bold;
+        font-size: 14px;
+        width: 180px;
+        height: 20px;
+        margin: 4px 1px 2px 3px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .reservation{
+        background-color: yellow;
+        grid-row: 1;
+        grid-column: 5;
+        font-weight: bold;
+        font-size: 14px;
+        width: 180px;
+        height: 20px;
+        margin: 4px 1px 2px 3px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .terrytaco{
+        grid-row: 1;
+        grid-column: 1/span 4;
+        height: 180px;
+        text-align: center;
+        font-size: small;
+        margin: 5px;
+        background-size: cover;
+          }
+    .onedollar{
+        background-color: yellow;
+        grid-row: 2;
+        grid-column: 5;
+        font-weight: bold;
+        font-size: 14px;
+        width: 220px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .threedollar{
+        background-color: yellow;
+        grid-row: 3;
+        grid-column: 5;
+        font-weight: bold;
+        font-size: 18px;
+        width: 200px;
+        text-align: center;
+        padding-top: 8px;
+        margin-top: 50px;
+    }
+   
+    .taco2 {
+        background-color: yellow;
+        grid-row: 3;
+        grid-column: 1;
+        font-weight: bold;
+        width: 250px;
+        height: 100px;
+        margin-top:auto;
+        padding-top: 8px;
+        text-align: center;
+                
+    }
+    .beer2 {
+        background-color: yellow;
+        grid-row: 3;
+        grid-column: 2;
+        font-weight: bold;
+        font-size: 14px;
+        width: 250px;
+        height: 100px;
+        text-align: center;
+        padding-top: 4px;
+        margin-top: auto;
+    }
+    .wine2 {
+        background-color: yellow;
+        grid-row: 3;
+        grid-column: 3;
+        font-weight: bold;
+        font-size: 14px;
+        width: 250px;
+        height: 100px;
+        text-align: center;
+        padding-top: 4px;
+        margin-top: auto;
+    }
+    .music {
+        background-color: yellow;
+        grid-row: 3;
+        grid-column: 4;
+        font-weight: bold;
+        font-size: 14px;
+        width: 250px;
+        height: 100px;
+        text-align: center;
+        padding-top: 8px;
+        margin-top: auto;
+    }
+    .queso-taco {
+        background-color: white
+        grid-row: 4;
+        grid-column: 1 / span 5;
+        height: 150px;
+        font-size: 14;
+        font-weight: bold;
+        margin: 7px;
+        object-fit: cover;
+        padding: 8px;
+    }
